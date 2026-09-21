@@ -1,6 +1,6 @@
 # SafeMod Synthetic Evaluation Data
 
-This repository contains the synthetic datasets, simulation code, and evaluation outputs used to validate the **SafeMod: Policy-Governed Evidence Fusion for Deterministic Content Moderation** framework.
+This repository contains the synthetic datasets used to validate the **SafeMod: Policy-Governed Evidence Fusion for Deterministic Content Moderation** framework.
 
 ## Motivation
 
