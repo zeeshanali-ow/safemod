@@ -38,12 +38,6 @@ In other words:
 
 The synthetic experiments therefore complement, rather than replace, evaluation on publicly available moderation data.
 
-## Reproducibility
-
-The Monte Carlo experiments use a fixed random seed (`42`) and `10,000` trials per scenario. The same generated score vector is supplied to all aggregation methods being compared, enabling controlled comparisons between SafeMod and baseline aggregation strategies.
-
-The repository includes the generation configuration, simulation code, synthetic datasets, sensitivity-analysis outputs, and decision-level evaluation results.
-
 ## Reference
 
 If you use these materials, please cite the associated SafeMod paper.
