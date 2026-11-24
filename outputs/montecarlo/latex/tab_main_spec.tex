@@ -1,0 +1,21 @@
+\begin{table*}[!t]
+\caption{Main Monte Carlo suite: generation of each score vector. 8 scenarios $\times$ 10,000 trials;
+one PCG64 generator, seed 42, drawn in the row order shown; $\theta_r=0.3$, $\theta_m=0.7$;
+operator at preset 3b midpoint ($f=0.2$, $K=5$, $\tau=0.1$, $\alpha=0.2$).}
+\label{tab:mc-main-spec}
+\centering\footnotesize
+\begin{tabular}{@{}llp{6.8cm}p{4.6cm}@{}}
+\toprule
+\textbf{Scenario} & \textbf{$n$} & \textbf{Generation} & \textbf{Purpose} \\
+\midrule
+ManyWeak & Int[6,12] & $s_i\sim U(0.05,0.25)$ i.i.d. & many weak scores; no score reaches $\theta_r$ \\
+OneStrongManyWeak & Int[4,11]+1 & weak $s_i\sim U(0.05,0.25)$; one strong $s^*\sim U(0.75,0.95)$ & one decisive score among weak ones \\
+MediumCorroboration & Int[2,12] & $c\sim U(0.35,0.55)$; $s_i=\mathrm{clip}_{[0,1]}(c+\epsilon_i)$, $\epsilon_i\sim N(0,0.05)$ & moderate, clustered scores \\
+Correlated & Int[2,12] & $b\sim U(0.1,0.9)$; $s_i=\mathrm{clip}_{[0,1]}(b+\epsilon_i)$, $\epsilon_i\sim N(0,0.03)$ & near-identical (highly correlated) scores at any level \\
+Duplicate & Int[5,12] & $v\sim U(0.1,0.4)$; $s_i=v$ for all $i$ & exact repetition of one value \\
+HeavyTailed & Int[2,12] & $s_i=\mathrm{clip}_{[0,1]}(0.15\,X_i)$, $X_i\sim$ Pareto-II(3) & mostly low scores, occasional large outlier \\
+Uniform & Int[2,12] & $s_i\sim U(0,1)$ i.i.d. & no structure \\
+RandomBeta & Int[2,12] & $a,b\sim U(0.5,5)$; $s_i\sim \mathrm{Beta}(a,b)$ i.i.d. & random unimodal/U-shaped shapes \\
+\bottomrule
+\end{tabular}
+\end{table*}

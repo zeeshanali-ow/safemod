@@ -1,0 +1,21 @@
+run,items,S_c_below_MAX,S_c_above_bound,Remove_differs_from_MAX,Review_to_Allow_vs_MAX
+Toxicity|11|Highly Cautious,63978,0,0,0,0
+Toxicity|11|Cautious,63978,0,0,0,0
+Toxicity|11|Default,63978,0,0,0,0
+Toxicity|11|Balanced,63978,0,0,0,0
+Toxicity|11|Permissive,63978,0,0,0,0
+Toxicity|3b|Highly Cautious,63978,0,0,0,0
+Toxicity|3b|Cautious,63978,0,0,0,0
+Toxicity|3b|Default,63978,0,0,0,0
+Toxicity|3b|Balanced,63978,0,0,0,0
+Toxicity|3b|Permissive,63978,0,0,0,0
+Harassment|11|Highly Cautious,63978,0,0,0,0
+Harassment|11|Cautious,63978,0,0,0,0
+Harassment|11|Default,63978,0,0,0,0
+Harassment|11|Balanced,63978,0,0,0,0
+Harassment|11|Permissive,63978,0,0,0,0
+Harassment|3b|Highly Cautious,63978,0,0,0,0
+Harassment|3b|Cautious,63978,0,0,0,0
+Harassment|3b|Default,63978,0,0,0,0
+Harassment|3b|Balanced,63978,0,0,0,0
+Harassment|3b|Permissive,63978,0,0,0,0
