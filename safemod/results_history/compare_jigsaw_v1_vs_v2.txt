@@ -1,6 +1,0 @@
-                        file  rows  int_cells_changed  text_cells_changed  max_float_diff                                                                           largest_change    status
-                  checks.csv    20                  0                   0    0.000000e+00                                                                                          identical
-    csv/jigsaw_decisions.csv    80                  0                   0    1.563037e-03 ScoresDiffer_pct row 43: np.float64(5.8254399949982805) -> np.float64(5.827003032292351)   changed
- csv/jigsaw_model_labels.csv     6                  0                   0    0.000000e+00                                                                                          identical
-      csv/jigsaw_presets.csv    30                  0                   0    0.000000e+00                                                                                          identical
-csv/jigsaw_score_quality.csv    10                  0                   0    2.758946e-08              AUC row 9: np.float64(0.9723970277653708) -> np.float64(0.9723970001759104)   changed
