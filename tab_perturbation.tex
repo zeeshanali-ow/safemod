@@ -1,0 +1,16 @@
+\begin{table}[!t]
+\caption{Coordinate-wise perturbation study: 450,000 trials (15 presets, parameters drawn uniformly within each
+preset's ranges; one coordinate raised by $\delta\sim U(0,0.1)$; seed 2026).
+A decrease is $\Delta S_c<0$ (exact, double precision).}
+\label{tab:perturbation}
+\centering\footnotesize
+\begin{tabular}{@{}lrrrr@{}}
+\toprule
+\textbf{Subset} & \textbf{Trials} & \textbf{Decreases} & \textbf{Max decrease} & \textbf{Decision lowered} \\
+\midrule
+All perturbations & 450,000 & 7,788 (1.73\%) & 0.0201 & 46 \\
+Raised coordinate is the maximum & 128,719 & 0 (0.00\%) & 0.0000 & 0 \\
+Raised coordinate is not the maximum & 321,281 & 7,788 (2.42\%) & 0.0201 & 46 \\
+\bottomrule
+\end{tabular}
+\end{table}

@@ -1,0 +1,19 @@
+\begin{table*}[!t]
+\caption{Jigsaw test set (63,978 comments), category ``Toxicity'', Default policy ($\theta_r=0.4$, $\theta_m=0.75$),
+proposed operator at preset 11 midpoint. Decision shares, flagged (Review or Remove) precision and recall,
+false-positive rate, precision of automatic Remove, and threshold-free score quality (ROC AUC, expected calibration
+error with 10 bins) against the ground-truth labels.}
+\label{tab:jigsaw-methods}
+\centering\scriptsize
+\begin{tabular}{@{}lrrrrrrrrr@{}}
+\toprule
+\textbf{Method} & \textbf{Allow\%} & \textbf{Review\%} & \textbf{Remove\%} & \textbf{Flag prec.\%} &
+\textbf{Flag rec.\%} & \textbf{FPR\%} & \textbf{Rem.\ prec.\%} & \textbf{AUC} & \textbf{ECE} \\
+\midrule
+MAX & 82.46 & 5.26 & 12.28 & 51.6 & 92.7 & 9.42 & 64.8 & 0.9736 & 0.0643 \\
+Mean & 94.60 & 5.07 & 0.33 & 86.2 & 47.7 & 0.83 & 99.5 & 0.9734 & 0.0361 \\
+Noisy-OR & 81.35 & 4.20 & 14.45 & 49.2 & 94.1 & 10.49 & 59.1 & 0.9739 & 0.0812 \\
+Proposed & 82.41 & 5.31 & 12.28 & 51.5 & 92.8 & 9.46 & 64.8 & 0.9736 & 0.0646 \\
+\bottomrule
+\end{tabular}
+\end{table*}

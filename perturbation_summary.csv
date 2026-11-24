@@ -1,0 +1,4 @@
+Subset,Trials,Decreases_n,Decreases_pct,MaxDecrease,DecisionDowngrades_n
+All perturbations,450000,7788,1.7306666666666668,0.0200910562972334,46
+Raised coordinate is the maximum,128719,0,0.0,0.0,0
+Raised coordinate is not the maximum,321281,7788,2.4240462398959166,0.0200910562972334,46
